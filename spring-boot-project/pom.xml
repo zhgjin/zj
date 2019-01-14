@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pers.zj</groupId>
-	<artifactId>common</artifactId>
+	<artifactId>restframe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>common</name>
+	<name>restframe</name>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -26,6 +26,12 @@
 			<scope>test</scope>
 		</dependency>-->
 			<!--mapper-->
+		<dependency>
+			<groupId>cn.sky999</groupId>
+			<artifactId>common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<dependency>
 			<groupId>tk.mybatis</groupId>
 			<artifactId>mapper-spring-boot-starter</artifactId>

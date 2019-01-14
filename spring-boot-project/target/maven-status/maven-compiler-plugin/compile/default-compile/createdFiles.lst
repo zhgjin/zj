@@ -1,0 +1,5 @@
+cn\sky999\service\impl\BaseService.class
+cn\sky999\configBean\RedisConfig.class
+cn\sky999\configBean\DruidSource.class
+cn\sky999\controller\RestFulController.class
+META-INF\spring-configuration-metadata.json

@@ -29,7 +29,7 @@ public class CodeInfo implements Serializable  {
 	@Column(name = "INFO_VALUE", nullable = true, length = 128)
 	private String infoValue;// 值
 	@Column(name = "INFO_CONTENT", nullable = true, length = 128)
-	@Condition(ConditionType.LIKE)
+	@Condition(value= ConditionType.LIKE)
 	private String infoContent;// 内容
 	@Column(name = "SORT_NO", nullable = true, length = 6)
 	private Integer sortNo;// 排序号
